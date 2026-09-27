@@ -15,6 +15,7 @@ import {
   faCalendarDays,
   faCheck,
   faEllipsis,
+  faFingerprint,
   faHouse,
   faList,
   faMagnifyingGlass,
@@ -140,7 +141,7 @@ export function KanbanBoard() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <div className="brand-mark" aria-label="kittyload">k</div>
+        <div className="brand-mark" aria-label="kittyload"><FontAwesomeIcon icon={faFingerprint} /></div>
         <nav className="sidebar-nav" aria-label="Principal">
           <button className="side-item active" aria-label="Inicio"><FontAwesomeIcon icon={faHouse} /></button>
           <button className="side-item" aria-label="Lista"><FontAwesomeIcon icon={faList} /></button>
